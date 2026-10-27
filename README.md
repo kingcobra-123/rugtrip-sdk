@@ -22,14 +22,14 @@ Full contract for the public endpoints: [`docs/API.md`](docs/API.md).
 
 ## Install
 
-```sh
-npm install @rugtrip/sdk          # Node >= 18 (stream: Node >= 22, or add the optional `ws` package)
-pip install rugtrip               # Python >= 3.10 (httpx + websockets)
-cargo add rugtrip                 # Rust, tokio
-```
+The packages are not on npm, PyPI or crates.io yet. Install from this repository:
 
-Until the packages are published, install from a clone: `npm install ./typescript`, `pip install ./python`, or
-`rugtrip = { path = "rust" }` in your `Cargo.toml`.
+```sh
+git clone https://github.com/kingcobra-123/rugtrip-sdk && cd rugtrip-sdk
+npm install ./typescript          # Node >= 18 (stream: Node >= 22, or add the optional `ws` package)
+pip install ./python              # Python >= 3.10 (httpx + websockets)
+# Rust: rugtrip = { git = "https://github.com/kingcobra-123/rugtrip-sdk" } in Cargo.toml (tokio)
+```
 
 ## Configure the base URL
 
