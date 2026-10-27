@@ -37,7 +37,7 @@ class _Base:
 class Client(_Base):
     """Sync client.
 
-    >>> rt = Client(base_url="http://127.0.0.1:8742")   # or set RUGTRIP_API_URL
+    >>> rt = Client(base_url=YOUR_API_URL)   # or set RUGTRIP_API_URL
     >>> t = rt.check("0x...")                           # token, pool, v4 pool id or chart link
     """
 
@@ -98,7 +98,7 @@ class Client(_Base):
 class AsyncClient(_Base):
     """Async client; also provides ``stream()``.
 
-    >>> async with AsyncClient(base_url="http://127.0.0.1:8742") as rt:
+    >>> async with AsyncClient(base_url=YOUR_API_URL) as rt:
     ...     t = await rt.check("0x...")
     ...     async for ev in rt.stream():
     ...         ...

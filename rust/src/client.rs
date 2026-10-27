@@ -36,7 +36,7 @@ impl Default for ClientBuilder {
 }
 
 impl ClientBuilder {
-    /// API base URL, e.g. `http://127.0.0.1:8742`. Required (or env RUGTRIP_API_URL). There is no default.
+    /// API base URL (http or https). Required (or env RUGTRIP_API_URL). There is no default.
     pub fn base_url(mut self, url: impl Into<String>) -> Self {
         self.base_url = Some(url.into());
         self

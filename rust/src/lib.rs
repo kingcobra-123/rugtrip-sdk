@@ -4,7 +4,7 @@
 //!
 //! ```no_run
 //! # async fn demo() -> rugtrip::Result<()> {
-//! let rt = rugtrip::Client::new("http://127.0.0.1:8742")?; // or Client::from_env() (RUGTRIP_API_URL)
+//! let rt = rugtrip::Client::from_env()?; // RUGTRIP_API_URL, or Client::new(url)
 //! let t = rt.check("0x...").await?;
 //! let g = rugtrip::gate(&t.best, &rugtrip::Policy::default());
 //! println!("{} {:?}", g.decision.as_str(), g.hits);

@@ -6,7 +6,7 @@ import type { FeedQuery, FeedResponse, Health, RugsQuery, RugsToday, Scorecard, 
 import { VERSION } from "./version.js";
 
 export interface ClientOptions {
-  /** API base URL, e.g. "http://127.0.0.1:8742". Required here or via env RUGTRIP_API_URL. There is no default. */
+  /** API base URL (http or https). Required here or via env RUGTRIP_API_URL. There is no default. */
   baseUrl?: string;
   /** per-request timeout, ms (default 10000) */
   timeoutMs?: number;
