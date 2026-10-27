@@ -9,3 +9,4 @@ __pycache__/
 *.egg-info/
 python/dist/
 .env
+examples/**/package-lock.json

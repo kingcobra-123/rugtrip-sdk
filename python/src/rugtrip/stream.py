@@ -93,7 +93,7 @@ class Stream:
                         if ev is not None:
                             yield ev
                     reason = f"closed ({ws.close_code})" if ws.close_code else "closed"
-            except (OSError, asyncio.TimeoutError, WebSocketException) as e:
+            except (OSError, asyncio.TimeoutError, TimeoutError, WebSocketException) as e:
                 reason = f"{type(e).__name__}: {e}"
             finally:
                 self._ws = None

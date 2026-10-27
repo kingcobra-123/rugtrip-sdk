@@ -1,0 +1,15 @@
+{
+  "name": "rugtrip-example-sniper-gate",
+  "private": true,
+  "type": "module",
+  "description": "Gate every new pool from the RugTrip stream with a policy. Prints BUY-CANDIDATE / SKIP. No trading code.",
+  "scripts": {
+    "start": "node sniper-gate.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@rugtrip/sdk": "file:../../../typescript"
+  }
+}

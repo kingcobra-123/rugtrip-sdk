@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  typescript:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ["20", "22", "24"]
+    defaults:
+      run:
+        working-directory: typescript
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: typescript/package-lock.json
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    defaults:
+      run:
+        working-directory: python
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv sync --locked
+      - run: uv run pytest -q
+      - run: uv build
+      - run: uv run python -m py_compile ../examples/sniper-gate/python/sniper_gate.py ../examples/check-cli/python/check.py
+
+  rust:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: rust
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: rust
+      - run: cargo fmt --check
+      - run: cargo clippy --all-targets -- -D warnings
+      - run: cargo test

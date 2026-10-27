@@ -31,11 +31,14 @@ def test_stream_events_and_reconnect():
             port = server.sockets[0].getsockname()[1]
             s = Stream(f"http://127.0.0.1:{port}", initial_backoff_s=0.01, max_backoff_s=0.05)
             seen = []
-            async with asyncio.timeout(10):
+
+            async def consume():
                 async for ev in s:
                     seen.append(ev)
                     if sum(isinstance(e, Connected) for e in seen) == 2 and isinstance(ev, (VerdictEvent, PullEvent)):
                         await s.close()
+
+            await asyncio.wait_for(consume(), 10)
             return seen
 
     seen = asyncio.run(main())

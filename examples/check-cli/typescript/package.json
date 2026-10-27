@@ -1,0 +1,15 @@
+{
+  "name": "rugtrip-example-check-cli",
+  "private": true,
+  "type": "module",
+  "description": "One-shot RugTrip check of a token, pool or chart link.",
+  "scripts": {
+    "start": "node check.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@rugtrip/sdk": "file:../../../typescript"
+  }
+}

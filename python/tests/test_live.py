@@ -31,9 +31,12 @@ def test_live_stream_connects():
     async def main():
         async with AsyncClient(URL) as c:
             s = c.stream(max_reconnects=0)
-            async with asyncio.timeout(10):
+
+            async def first():
                 async for ev in s:
                     assert isinstance(ev, Connected)
                     await s.close()
+
+            await asyncio.wait_for(first(), 10)
 
     asyncio.run(main())
