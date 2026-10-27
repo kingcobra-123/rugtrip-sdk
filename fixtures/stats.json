@@ -1,0 +1,8 @@
+{
+  "pools_24h": 7987,
+  "pulls_24h": 1735,
+  "median_life_s": 580.0,
+  "decision_p50_ms": 1143.0,
+  "e2e_p50_ms": 1143.0,
+  "engine_p50_us": 28.3
+}

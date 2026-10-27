@@ -1,0 +1,55 @@
+{
+  "since": 1793057241.7152116,
+  "pulls": [
+    {
+      "pool": "0xc75b29db36b5967699aa727000bccc411cec1a6f",
+      "token": "0xbb18561aea3837b1b916f395d0758c3776c74b12",
+      "symbol": "meat",
+      "venue": "v3",
+      "launched_at": 1793143576.1632135,
+      "pulled_at": 1793143592.69045,
+      "life_s": 17,
+      "liq_removed_usd": 1292.67
+    },
+    {
+      "pool": "0x84bc0c546f069966d7682c9867f3a987b5424734",
+      "token": "0x2a37dd6905d5b90e6fdb0bd5e8e0c3895bf4f850",
+      "symbol": "Frongus",
+      "venue": "v3",
+      "launched_at": 1793143481.269372,
+      "pulled_at": 1793143552.7303996,
+      "life_s": 71,
+      "liq_removed_usd": 5.71
+    },
+    {
+      "pool": "0xc4eca7516904846d0cf5195de9c8aae8402994a3247dca69c230069d218f4c71",
+      "token": "0xb7ff57631b97000d950236ef63bd463da5beba7e",
+      "symbol": "REBATE",
+      "venue": "v4",
+      "launched_at": 1793120166.804527,
+      "pulled_at": 1793143497.9132752,
+      "life_s": 23331,
+      "liq_removed_usd": null
+    },
+    {
+      "pool": "0xe1f03e62bb1b29d6df9f510d60652f19b3c57162",
+      "token": "0x7efcce8154de2d42ceeab7eb2979b696f0dd1e60",
+      "symbol": "meat",
+      "venue": "v3",
+      "launched_at": 1793143405.1135921,
+      "pulled_at": 1793143478.5216503,
+      "life_s": 73,
+      "liq_removed_usd": 7508.0
+    },
+    {
+      "pool": "0xa8f6e8425451ef285e5395f409cbca2735144189",
+      "token": "0x4a6787596d2d3101f64bf321ba92430cb75b96df",
+      "symbol": "Frongus",
+      "venue": "v3",
+      "launched_at": 1793143316.1306357,
+      "pulled_at": 1793143428.9114406,
+      "life_s": 113,
+      "liq_removed_usd": 1366.38
+    }
+  ]
+}

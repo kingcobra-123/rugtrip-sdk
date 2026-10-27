@@ -1,0 +1,812 @@
+{
+  "pools": [
+    {
+      "pool": "0x219cfd2a680040254b3bd1694d9e313b43471bb8abafa7e68782b097db145e29",
+      "token": "0x2fe1c1c8fb5825a6f336b85193c615ce775b0868",
+      "symbol": "AI",
+      "venue": "v4",
+      "pool_age_s": 75,
+      "liq_usd": null,
+      "rating": "TRAP",
+      "reasons": [
+        {
+          "level": "bad",
+          "check": "sell_sim",
+          "text": "A test sale failed: holders likely can't sell"
+        },
+        {
+          "level": "warn",
+          "check": "lp",
+          "text": "No liquidity has been added yet"
+        },
+        {
+          "level": "warn",
+          "check": "wallets",
+          "text": "The creator's wallet launched 13 tokens whose liquidity was pulled"
+        },
+        {
+          "level": "unknown",
+          "check": "creator",
+          "text": "We couldn't measure the creator's holdings yet"
+        }
+      ],
+      "issued_at": 1793143435.2785344,
+      "updated_at": 1793143435.2785344,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "unknown",
+          "held_pct": 0.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "blocked",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": null
+        },
+        "bundle_pct": null,
+        "creator_pct": null,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": null,
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0x17a4c5ce46976a6a69cddbcdff516585e7c0db41",
+      "token": "0xd98a2b4d320c0c5a781e3c1bb061a387139c8888",
+      "symbol": "POLY",
+      "venue": "v2",
+      "pool_age_s": 86,
+      "liq_usd": null,
+      "rating": "CAUTION",
+      "reasons": [
+        {
+          "level": "warn",
+          "check": "sell_sim",
+          "text": "Test buys fail right now (trading may not be open yet)"
+        },
+        {
+          "level": "warn",
+          "check": "lp",
+          "text": "No liquidity has been added yet"
+        },
+        {
+          "level": "ok",
+          "check": "creator",
+          "text": "The creator holds none of the supply"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143425.4515927,
+      "updated_at": 1793143425.6024518,
+      "version": 2,
+      "details": {
+        "lp": {
+          "custody": "unknown",
+          "held_pct": 0.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "error",
+          "buy_tax_pct": null,
+          "sell_tax_pct": null
+        },
+        "bundle_pct": null,
+        "creator_pct": 0.0,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": null,
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0xf69ef1945f71bb0b55c3958cdf5a2f666388242a",
+      "token": "0xf5dee641cc8ed514711b1d454298abb03dae7777",
+      "symbol": "OPENSNAIL",
+      "venue": "v2",
+      "pool_age_s": 88,
+      "liq_usd": null,
+      "rating": "CAUTION",
+      "reasons": [
+        {
+          "level": "unknown",
+          "check": "sell_sim",
+          "text": "We couldn't run a test sale on this pool yet"
+        },
+        {
+          "level": "unknown",
+          "check": "lp",
+          "text": "We couldn't confirm who controls the liquidity yet"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "creator",
+          "text": "The creator holds none of the supply"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143425.2739713,
+      "updated_at": 1793143467.406982,
+      "version": 3,
+      "details": {
+        "lp": {
+          "custody": "unknown",
+          "held_pct": null,
+          "locked_pct": null,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "no_route",
+          "buy_tax_pct": null,
+          "sell_tax_pct": null
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": 0.0,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": null,
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0xe1f03e62bb1b29d6df9f510d60652f19b3c57162",
+      "token": "0x7efcce8154de2d42ceeab7eb2979b696f0dd1e60",
+      "symbol": "meat",
+      "venue": "v3",
+      "pool_age_s": 105,
+      "liq_usd": 16396.1,
+      "rating": "TRAP",
+      "reasons": [
+        {
+          "level": "bad",
+          "check": "lp",
+          "text": "The liquidity was pulled 73 s after launch"
+        },
+        {
+          "level": "unknown",
+          "check": "creator",
+          "text": "We couldn't measure the creator's holdings yet"
+        },
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        },
+        {
+          "level": "ok",
+          "check": "code",
+          "text": "The token uses a widely traded code template"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143405.9881878,
+      "updated_at": 1793143478.5216649,
+      "version": 2,
+      "details": {
+        "lp": {
+          "custody": "unknown",
+          "held_pct": 0.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": null,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": null,
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0xe56dc906c99f649f4886aa96e956890614097532",
+      "token": "0x0de3379809dcf87c2c8b51c6d54c96f98f541440",
+      "symbol": "WAGMI",
+      "venue": "v3",
+      "pool_age_s": 109,
+      "liq_usd": null,
+      "rating": "CAUTION",
+      "reasons": [
+        {
+          "level": "unknown",
+          "check": "lp",
+          "text": "We couldn't confirm who controls the liquidity yet"
+        },
+        {
+          "level": "unknown",
+          "check": "creator",
+          "text": "We couldn't measure the creator's holdings yet"
+        },
+        {
+          "level": "unknown",
+          "check": "wallets",
+          "text": "We couldn't identify the creator's wallet yet"
+        },
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        }
+      ],
+      "issued_at": 1793143404.1906862,
+      "updated_at": 1793143404.1906862,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "unknown",
+          "held_pct": null,
+          "locked_pct": null,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": null,
+        "creator_pct": null,
+        "deployer": null,
+        "lp_holder": null,
+        "creator": null
+      }
+    },
+    {
+      "pool": "0x677805fde08944d88cb61e65add3a2952635d54c8789ddfcc48c480ddf97d466",
+      "token": "0x343c284bd3ce36dcbb5210cb92f832f8ec5e0087",
+      "symbol": "BAGMON",
+      "venue": "v4",
+      "pool_age_s": 116,
+      "liq_usd": 41.8,
+      "rating": "LOWER_RISK",
+      "reasons": [
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        },
+        {
+          "level": "ok",
+          "check": "lp",
+          "text": "All of the liquidity is locked or burned"
+        },
+        {
+          "level": "ok",
+          "check": "code",
+          "text": "The token uses a widely traded code template"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "creator",
+          "text": "The creator still holds 1.4% of the supply"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143395.3369715,
+      "updated_at": 1793143395.3369715,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "locked",
+          "held_pct": 0.0,
+          "locked_pct": 100.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": 1.4,
+        "creator_pct": 1.44,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0x8eed98aabc03f0139aae457e8f5d02e6bf7afbb338aaecc69010608b00ef8ef3",
+      "token": "0xedbf91223639800bcd5756815caf908df3b890be",
+      "symbol": "PRIORS",
+      "venue": "v4",
+      "pool_age_s": 115,
+      "liq_usd": null,
+      "rating": "HIGH_RISK",
+      "reasons": [
+        {
+          "level": "bad",
+          "check": "lp",
+          "text": "One wallet can remove 100% of the liquidity"
+        },
+        {
+          "level": "bad",
+          "check": "wallets",
+          "text": "The liquidity holder's wallet pulled liquidity from 366 other pools"
+        },
+        {
+          "level": "warn",
+          "check": "wallets",
+          "text": "The creator's wallet launched 240 tokens whose liquidity was pulled"
+        },
+        {
+          "level": "unknown",
+          "check": "sell_sim",
+          "text": "We couldn't run a test sale on this pool yet"
+        },
+        {
+          "level": "unknown",
+          "check": "creator",
+          "text": "We couldn't measure the creator's holdings yet"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        }
+      ],
+      "issued_at": 1793143394.8848877,
+      "updated_at": 1793143394.8848877,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "one_wallet",
+          "held_pct": 100.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "no_route",
+          "buy_tax_pct": null,
+          "sell_tax_pct": null
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": null,
+        "deployer": null,
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0x8baa2e5367090c42bfcd374d3b2054c68d637082987a913f7f7293333aca542a",
+      "token": "0x392e6eb9d9bf77d0f14bf4c23ad15a44e8b71e18",
+      "symbol": "OPENSNAIL",
+      "venue": "v4",
+      "pool_age_s": 131,
+      "liq_usd": null,
+      "rating": "CAUTION",
+      "reasons": [
+        {
+          "level": "unknown",
+          "check": "sell_sim",
+          "text": "We couldn't run a test sale on this pool yet"
+        },
+        {
+          "level": "ok",
+          "check": "lp",
+          "text": "All of the liquidity is locked or burned"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "creator",
+          "text": "The creator holds none of the supply"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143378.9030786,
+      "updated_at": 1793143379.2049358,
+      "version": 3,
+      "details": {
+        "lp": {
+          "custody": "locked",
+          "held_pct": 0.0,
+          "locked_pct": 100.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "no_route",
+          "buy_tax_pct": null,
+          "sell_tax_pct": null
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": 0.0,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0x27e0bf6b054a524acba5e540f4a5ff75e72652ce794ff94cf28966ba60e390a0",
+      "token": "0x4a723b09f5a1b1998a6ed9a9d6736f996ab6e9c7",
+      "symbol": "SOFT",
+      "venue": "v4",
+      "pool_age_s": 145,
+      "liq_usd": 5447.3,
+      "rating": "TRAP",
+      "reasons": [
+        {
+          "level": "bad",
+          "check": "lp",
+          "text": "The liquidity was pulled 53 s after launch"
+        },
+        {
+          "level": "unknown",
+          "check": "creator",
+          "text": "We couldn't measure the creator's holdings yet"
+        },
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        },
+        {
+          "level": "ok",
+          "check": "code",
+          "text": "The token uses a widely traded code template"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143365.953469,
+      "updated_at": 1793143418.0626547,
+      "version": 2,
+      "details": {
+        "lp": {
+          "custody": "one_wallet",
+          "held_pct": 100.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": null,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0x0d5a9705868e9acdaff664776ca70042df3ca2f4",
+      "token": "0x4cc6db7198b59f74cc5973a0500287a32c517e1a",
+      "symbol": "CHAMPS",
+      "venue": "v2",
+      "pool_age_s": 155,
+      "liq_usd": null,
+      "rating": "HIGH_RISK",
+      "reasons": [
+        {
+          "level": "bad",
+          "check": "lp",
+          "text": "One wallet can remove 100% of the liquidity"
+        },
+        {
+          "level": "bad",
+          "check": "template",
+          "text": "This launch copies a setup used by 14 earlier pools that had their liquidity pulled"
+        },
+        {
+          "level": "unknown",
+          "check": "creator",
+          "text": "We couldn't measure the creator's holdings yet"
+        },
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143355.8454354,
+      "updated_at": 1793143355.8454354,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "one_wallet",
+          "held_pct": 100.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": null,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0x76d7030400dfd1a2a626f2566c9d0ae55c18dc561eab0cf81814a554742ecef5",
+      "token": "0x8a3d3b920dfbc2e30abfd4e7e00b60bbe8940b53",
+      "symbol": "STAMPEDE",
+      "venue": "v4",
+      "pool_age_s": 169,
+      "liq_usd": 0.0,
+      "rating": "CAUTION",
+      "reasons": [
+        {
+          "level": "warn",
+          "check": "lp",
+          "text": "100% of the liquidity sits in a contract with no lock record"
+        },
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "creator",
+          "text": "The creator holds none of the supply"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143341.6903183,
+      "updated_at": 1793143341.6903183,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "contract",
+          "held_pct": 0.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": 0.0,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0xd6a5bc05379b098c59fcc643bb17ce5bb1d8f3e2d417f5d00aa1bd98f88d4521",
+      "token": "0x2932b2f5761cadca5cb3e09d940092ca723d9ee2",
+      "symbol": "Hood",
+      "venue": "v4",
+      "pool_age_s": 174,
+      "liq_usd": 19026.0,
+      "rating": "HIGH_RISK",
+      "reasons": [
+        {
+          "level": "bad",
+          "check": "bundle",
+          "text": "Insiders bought 80% of the supply in the launch block"
+        },
+        {
+          "level": "bad",
+          "check": "creator",
+          "text": "The creator still holds 80% of the supply"
+        },
+        {
+          "level": "warn",
+          "check": "lp",
+          "text": "100% of the liquidity sits in a contract with no lock record"
+        },
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143336.5032778,
+      "updated_at": 1793143336.5032778,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "contract",
+          "held_pct": 0.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": 79.5,
+        "creator_pct": 79.51,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0xb05c3c403afe46cfe4d391878fd3c7327f42890d3ac34b3e0acb8171a6f17766",
+      "token": "0xf1ce975a94e85b2443e9adc90b1e9da6d5eb96ea",
+      "symbol": "M2",
+      "venue": "v4",
+      "pool_age_s": 290,
+      "liq_usd": 46.5,
+      "rating": "CAUTION",
+      "reasons": [
+        {
+          "level": "warn",
+          "check": "wallets",
+          "text": "The creator's wallet launched 7 tokens whose liquidity was pulled"
+        },
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        },
+        {
+          "level": "ok",
+          "check": "lp",
+          "text": "All of the liquidity is locked or burned"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "creator",
+          "text": "The creator holds none of the supply"
+        }
+      ],
+      "issued_at": 1793143220.3136854,
+      "updated_at": 1793143220.3136854,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "locked",
+          "held_pct": 0.0,
+          "locked_pct": 100.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": 0.0,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    },
+    {
+      "pool": "0x0f0c3cb2238ffc648b39a13dd9d94e73cfe1ca51",
+      "token": "0xb5417d64649f7621405a9f9cab01253d72db2575",
+      "symbol": "SECANGENT",
+      "venue": "v3",
+      "pool_age_s": 318,
+      "liq_usd": null,
+      "rating": "CAUTION",
+      "reasons": [
+        {
+          "level": "warn",
+          "check": "sell_sim",
+          "text": "Test buys fail right now (trading may not be open yet)"
+        },
+        {
+          "level": "warn",
+          "check": "lp",
+          "text": "100% of the liquidity sits in a contract with no lock record"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "creator",
+          "text": "The creator holds none of the supply"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143192.9262435,
+      "updated_at": 1793143193.0773354,
+      "version": 2,
+      "details": {
+        "lp": {
+          "custody": "contract",
+          "held_pct": 0.0,
+          "locked_pct": 0.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "error",
+          "buy_tax_pct": null,
+          "sell_tax_pct": null
+        },
+        "bundle_pct": 0.0,
+        "creator_pct": 0.0,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "days": [
+    {
+      "day": "2026-10-27",
+      "rating": "TRAP",
+      "pools": 455,
+      "pulled_1h": 71,
+      "pulled_6h": 77,
+      "pulled_24h": 78
+    },
+    {
+      "day": "2026-10-27",
+      "rating": "HIGH_RISK",
+      "pools": 2168,
+      "pulled_1h": 1177,
+      "pulled_6h": 1263,
+      "pulled_24h": 1275
+    },
+    {
+      "day": "2026-10-27",
+      "rating": "CAUTION",
+      "pools": 4826,
+      "pulled_1h": 129,
+      "pulled_6h": 151,
+      "pulled_24h": 158
+    },
+    {
+      "day": "2026-10-27",
+      "rating": "LOWER_RISK",
+      "pools": 350,
+      "pulled_1h": 0,
+      "pulled_6h": 0,
+      "pulled_24h": 0
+    },
+    {
+      "day": "2026-10-26",
+      "rating": "TRAP",
+      "pools": 507,
+      "pulled_1h": 88,
+      "pulled_6h": 100,
+      "pulled_24h": 106
+    },
+    {
+      "day": "2026-10-26",
+      "rating": "HIGH_RISK",
+      "pools": 1031,
+      "pulled_1h": 660,
+      "pulled_6h": 679,
+      "pulled_24h": 682
+    },
+    {
+      "day": "2026-10-26",
+      "rating": "CAUTION",
+      "pools": 7099,
+      "pulled_1h": 544,
+      "pulled_6h": 676,
+      "pulled_24h": 765
+    },
+    {
+      "day": "2026-10-26",
+      "rating": "LOWER_RISK",
+      "pools": 195,
+      "pulled_1h": 0,
+      "pulled_6h": 0,
+      "pulled_24h": 0
+    }
+  ],
+  "totals": {
+    "TRAP": {
+      "pools": 962,
+      "pulled_1h": 159,
+      "pulled_6h": 177,
+      "pulled_24h": 184
+    },
+    "HIGH_RISK": {
+      "pools": 3199,
+      "pulled_1h": 1837,
+      "pulled_6h": 1942,
+      "pulled_24h": 1957
+    },
+    "CAUTION": {
+      "pools": 11925,
+      "pulled_1h": 673,
+      "pulled_6h": 827,
+      "pulled_24h": 923
+    },
+    "LOWER_RISK": {
+      "pools": 545,
+      "pulled_1h": 0,
+      "pulled_6h": 0,
+      "pulled_24h": 0
+    }
+  }
+}

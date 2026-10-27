@@ -1,0 +1,57 @@
+{
+  "pool": "0x3e767ad60e19334d08952bed1b1a88c722d55eddfeaaab50b695330c260a4322",
+  "token": "0x37a805d0f2e372aeb47c8fd1be331dafad288143",
+  "symbol": "LENNY",
+  "venue": "v4",
+  "pool_age_s": 305,
+  "liq_usd": 341.0,
+  "rating": "LOWER_RISK",
+  "reasons": [
+    {
+      "level": "unknown",
+      "check": "creator",
+      "text": "We couldn't measure the creator's holdings yet"
+    },
+    {
+      "level": "ok",
+      "check": "sell_sim",
+      "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+    },
+    {
+      "level": "ok",
+      "check": "lp",
+      "text": "All of the liquidity is locked or burned"
+    },
+    {
+      "level": "ok",
+      "check": "bundle",
+      "text": "No large insider buys in the launch block"
+    },
+    {
+      "level": "ok",
+      "check": "wallets",
+      "text": "No earlier pulls linked to the creator's wallet"
+    }
+  ],
+  "issued_at": 1793143216.4856055,
+  "updated_at": 1793143216.4856055,
+  "version": 1,
+  "details": {
+    "lp": {
+      "custody": "locked",
+      "held_pct": 0.0,
+      "locked_pct": 100.0,
+      "lock_until": null
+    },
+    "sim": {
+      "status": "ok",
+      "buy_tax_pct": 0.0,
+      "sell_tax_pct": 0.0
+    },
+    "bundle_pct": 0.0,
+    "creator_pct": null,
+    "deployer": "0x00000000000000000000000000000000000000d1",
+    "lp_holder": "0x00000000000000000000000000000000000000e1",
+    "creator": "0x00000000000000000000000000000000000000c1"
+  }
+}

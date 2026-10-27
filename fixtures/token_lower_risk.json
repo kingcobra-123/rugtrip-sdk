@@ -1,0 +1,131 @@
+{
+  "token": "0x343c284bd3ce36dcbb5210cb92f832f8ec5e0087",
+  "symbol": "BAGMON",
+  "chain_id": 4663,
+  "best": {
+    "pool": "0x677805fde08944d88cb61e65add3a2952635d54c8789ddfcc48c480ddf97d466",
+    "token": "0x343c284bd3ce36dcbb5210cb92f832f8ec5e0087",
+    "symbol": "BAGMON",
+    "venue": "v4",
+    "pool_age_s": 127,
+    "liq_usd": 41.8,
+    "rating": "LOWER_RISK",
+    "reasons": [
+      {
+        "level": "ok",
+        "check": "sell_sim",
+        "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+      },
+      {
+        "level": "ok",
+        "check": "lp",
+        "text": "All of the liquidity is locked or burned"
+      },
+      {
+        "level": "ok",
+        "check": "code",
+        "text": "The token uses a widely traded code template"
+      },
+      {
+        "level": "ok",
+        "check": "bundle",
+        "text": "No large insider buys in the launch block"
+      },
+      {
+        "level": "ok",
+        "check": "creator",
+        "text": "The creator still holds 1.4% of the supply"
+      },
+      {
+        "level": "ok",
+        "check": "wallets",
+        "text": "No earlier pulls linked to the creator's wallet"
+      }
+    ],
+    "issued_at": 1793143395.3369715,
+    "updated_at": 1793143395.3369715,
+    "version": 1,
+    "details": {
+      "lp": {
+        "custody": "locked",
+        "held_pct": 0.0,
+        "locked_pct": 100.0,
+        "lock_until": null
+      },
+      "sim": {
+        "status": "ok",
+        "buy_tax_pct": 0.0,
+        "sell_tax_pct": 0.0
+      },
+      "bundle_pct": 1.4,
+      "creator_pct": 1.44,
+      "deployer": "0x00000000000000000000000000000000000000d1",
+      "lp_holder": "0x00000000000000000000000000000000000000e1",
+      "creator": "0x00000000000000000000000000000000000000c1"
+    }
+  },
+  "pools": [
+    {
+      "pool": "0x677805fde08944d88cb61e65add3a2952635d54c8789ddfcc48c480ddf97d466",
+      "token": "0x343c284bd3ce36dcbb5210cb92f832f8ec5e0087",
+      "symbol": "BAGMON",
+      "venue": "v4",
+      "pool_age_s": 127,
+      "liq_usd": 41.8,
+      "rating": "LOWER_RISK",
+      "reasons": [
+        {
+          "level": "ok",
+          "check": "sell_sim",
+          "text": "A test buy and sale went through (buy tax 0%, sell tax 0%)"
+        },
+        {
+          "level": "ok",
+          "check": "lp",
+          "text": "All of the liquidity is locked or burned"
+        },
+        {
+          "level": "ok",
+          "check": "code",
+          "text": "The token uses a widely traded code template"
+        },
+        {
+          "level": "ok",
+          "check": "bundle",
+          "text": "No large insider buys in the launch block"
+        },
+        {
+          "level": "ok",
+          "check": "creator",
+          "text": "The creator still holds 1.4% of the supply"
+        },
+        {
+          "level": "ok",
+          "check": "wallets",
+          "text": "No earlier pulls linked to the creator's wallet"
+        }
+      ],
+      "issued_at": 1793143395.3369715,
+      "updated_at": 1793143395.3369715,
+      "version": 1,
+      "details": {
+        "lp": {
+          "custody": "locked",
+          "held_pct": 0.0,
+          "locked_pct": 100.0,
+          "lock_until": null
+        },
+        "sim": {
+          "status": "ok",
+          "buy_tax_pct": 0.0,
+          "sell_tax_pct": 0.0
+        },
+        "bundle_pct": 1.4,
+        "creator_pct": 1.44,
+        "deployer": "0x00000000000000000000000000000000000000d1",
+        "lp_holder": "0x00000000000000000000000000000000000000e1",
+        "creator": "0x00000000000000000000000000000000000000c1"
+      }
+    }
+  ]
+}
