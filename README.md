@@ -10,7 +10,7 @@ pull stream.
 > **Ratings are risk opinions, not guarantees. Never treat `LOWER_RISK` as safe.** A pool can pass every check and
 > still go to zero. Use RugTrip as one input to your own decision.
 
-Method: rugtrip method page — link added at launch.
+Method: [how ratings are made and how they hold up](docs/METHOD.md).
 
 | | package | source |
 |---|---|---|
